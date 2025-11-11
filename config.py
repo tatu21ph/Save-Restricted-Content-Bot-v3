@@ -23,9 +23,9 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 MONGO_URI = os.getenv("MONGO_DB", "")
 OWNER_ID = list(map(int, os.getenv("OWNER_ID", "").split())) # list seperated via space
 DB_NAME = os.getenv("DB_NAME", "telegram_downloader")
-STRING = os.getenv("STRING", None) # optional
-LOG_GROUP = int(os.getenv("LOG_GROUP", None)) # optional with -100
-FORCE_SUB = int(os.getenv("FORCE_SUB", None)) # optional with -100
+STRING = os.getenv("", None) # optional
+LOG_GROUP = int(os.getenv("", None)) # optional with -100
+FORCE_SUB = int(os.getenv("", None)) # optional with -100
 YT_COOKIES = os.getenv("YT_COOKIES", YTUB_COOKIES)
 INSTA_COOKIES = os.getenv("INSTA_COOKIES", INST_COOKIES)
 
